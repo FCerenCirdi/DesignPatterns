@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibilityDesignPattern", "ChainOfResponsibilityDesignPattern", "{84FF4ADC-76E4-46FD-A556-370A63130A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.ChainOfResponsibility", "ChainOfResponsibilityDesignPattern\DesignPattern.ChainOfResponsibility\DesignPattern.ChainOfResponsibility.csproj", "{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA} = {84FF4ADC-76E4-46FD-A556-370A63130A30}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65DBC567-B137-4C61-BCCE-D992612ECB40}
+	EndGlobalSection
+EndGlobal

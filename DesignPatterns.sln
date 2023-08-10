@@ -5,7 +5,11 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibilityDesignPattern", "ChainOfResponsibilityDesignPattern", "{84FF4ADC-76E4-46FD-A556-370A63130A30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.ChainOfResponsibility", "ChainOfResponsibilityDesignPattern\DesignPattern.ChainOfResponsibility\DesignPattern.ChainOfResponsibility.csproj", "{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.ChainOfResponsibility", "ChainOfResponsibilityDesignPattern\DesignPattern.ChainOfResponsibility\DesignPattern.ChainOfResponsibility.csproj", "{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CQRSDesignPattern", "CQRSDesignPattern", "{1E516E19-4C81-4447-A91D-4D288F5A3494}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.CQRS", "CQRSDesignPattern\DesignPattern.CQRS\DesignPattern.CQRS.csproj", "{4BC89D67-7A6B-40A8-8FB9-5A682FAF9910}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BC89D67-7A6B-40A8-8FB9-5A682FAF9910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BC89D67-7A6B-40A8-8FB9-5A682FAF9910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BC89D67-7A6B-40A8-8FB9-5A682FAF9910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BC89D67-7A6B-40A8-8FB9-5A682FAF9910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{51661D8F-303C-4CCD-BEAB-5DFAFFD924CA} = {84FF4ADC-76E4-46FD-A556-370A63130A30}
+		{4BC89D67-7A6B-40A8-8FB9-5A682FAF9910} = {1E516E19-4C81-4447-A91D-4D288F5A3494}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65DBC567-B137-4C61-BCCE-D992612ECB40}

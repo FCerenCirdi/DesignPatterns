@@ -1,4 +1,4 @@
-﻿using AspNetCore;
+﻿
 using DesignPattern.CQRS.CQRSPattern.Commands;
 using DesignPattern.CQRS.CQRSPattern.Handlers;
 using DesignPattern.CQRS.CQRSPattern.Queries;
